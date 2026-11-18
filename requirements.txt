@@ -1,0 +1,2 @@
+# Powerplay relies purely on the Python standard library (http.server, socketserver, json, threading)
+# Zero external pip packages required!

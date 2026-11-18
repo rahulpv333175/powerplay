@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#070b1f">
+<title>Powerplay · IPL Mega Auction & Franchise Cricket</title>
+<!-- where the multiplayer server lives; empty when the same host serves the app and the API (scripts/build_site.sh fills it in) -->
+<meta name="api-base" content="">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%22-6%20-6%20110%20110%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22fo%22%20x1%3D%221%22%20y1%3D%221%22%20x2%3D%220%22%20y2%3D%220%22%3E%3Cstop%20stop-color%3D%22%23c1121f%22/%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%236d0810%22/%3E%3C/linearGradient%3E%3ClinearGradient%20id%3D%22fm%22%20x1%3D%221%22%20y1%3D%221%22%20x2%3D%220%22%20y2%3D%220%22%3E%3Cstop%20stop-color%3D%22%23ff3b30%22/%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23c1121f%22/%3E%3C/linearGradient%3E%3CradialGradient%20id%3D%22wb%22%20cx%3D%22.36%22%20cy%3D%22.3%22%20r%3D%22.8%22%3E%3Cstop%20stop-color%3D%22%23ffffff%22/%3E%3Cstop%20offset%3D%22.6%22%20stop-color%3D%22%23eef0f6%22/%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23c3c8d8%22/%3E%3C/radialGradient%3E%3ClinearGradient%20id%3D%22lg%22%20x1%3D%220%22%20y1%3D%220%22%20x2%3D%221%22%20y2%3D%221%22%3E%3Cstop%20stop-color%3D%22%23d1121f%22/%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23ff5147%22/%3E%3C/linearGradient%3E%3CclipPath%20id%3D%22wbc%22%3E%3Ccircle%20cx%3D%2266%22%20cy%3D%2262%22%20r%3D%2220.5%22/%3E%3C/clipPath%3E%3C/defs%3E%3Crect%20x%3D%22-6%22%20y%3D%22-6%22%20width%3D%22110%22%20height%3D%22110%22%20rx%3D%2224%22%20fill%3D%22%230a0f24%22/%3E%3Cpath%20transform%3D%22translate%2866%2062%29%20rotate%280%29%20scale%281%29%20translate%28-66%20-62%29%22%20fill%3D%22url%28%23fo%29%22%20d%3D%22M88%2073C94%2055%2085%2038%2066%2035C50%2033%2036%2024%2030%206C30%2018%2033%2026%2041%2031C28%2030%2016%2024%209%2012C12%2026%2020%2037%2033%2043C20%2044%209%2040%202%2032C8%2046%2020%2056%2035%2058C25%2061%2016%2060%209%2056C17%2068%2028%2074%2042%2074C36%2078%2030%2080%2025%2080C44%2092%2076%2092%2088%2073Z%22/%3E%3Cpath%20transform%3D%22translate%2866%2062%29%20rotate%282%29%20scale%280.85%29%20translate%28-66%20-62%29%22%20fill%3D%22url%28%23fm%29%22%20d%3D%22M88%2073C94%2055%2085%2038%2066%2035C50%2033%2036%2024%2030%206C30%2018%2033%2026%2041%2031C28%2030%2016%2024%209%2012C12%2026%2020%2037%2033%2043C20%2044%209%2040%202%2032C8%2046%2020%2056%2035%2058C25%2061%2016%2060%209%2056C17%2068%2028%2074%2042%2074C36%2078%2030%2080%2025%2080C44%2092%2076%2092%2088%2073Z%22/%3E%3Cpath%20transform%3D%22translate%2866%2062%29%20rotate%284%29%20scale%280.7%29%20translate%28-66%20-62%29%22%20fill%3D%22%23ff5a4a%22%20d%3D%22M88%2073C94%2055%2085%2038%2066%2035C50%2033%2036%2024%2030%206C30%2018%2033%2026%2041%2031C28%2030%2016%2024%209%2012C12%2026%2020%2037%2033%2043C20%2044%209%2040%202%2032C8%2046%2020%2056%2035%2058C25%2061%2016%2060%209%2056C17%2068%2028%2074%2042%2074C36%2078%2030%2080%2025%2080C44%2092%2076%2092%2088%2073Z%22/%3E%3Cpath%20transform%3D%22translate%2866%2062%29%20rotate%286%29%20scale%280.55%29%20translate%28-66%20-62%29%22%20fill%3D%22%23ffb9ad%22%20d%3D%22M88%2073C94%2055%2085%2038%2066%2035C50%2033%2036%2024%2030%206C30%2018%2033%2026%2041%2031C28%2030%2016%2024%209%2012C12%2026%2020%2037%2033%2043C20%2044%209%2040%202%2032C8%2046%2020%2056%2035%2058C25%2061%2016%2060%209%2056C17%2068%2028%2074%2042%2074C36%2078%2030%2080%2025%2080C44%2092%2076%2092%2088%2073Z%22/%3E%3Ccircle%20cx%3D%2266%22%20cy%3D%2262%22%20r%3D%2220.5%22%20fill%3D%22url%28%23wb%29%22/%3E%3Cg%20fill%3D%22none%22%20clip-path%3D%22url%28%23wbc%29%22%3E%3Cpath%20d%3D%22M61.0%2041.5Q71.5%2062%2065.5%2082.5%22%20stroke%3D%22%23c1121f%22%20stroke-width%3D%2211%22%20stroke-dasharray%3D%221%202.4%22%20opacity%3D%22.55%22/%3E%3Cpath%20d%3D%22M57.0%2041.5Q67.5%2062%2061.5%2082.5M61.0%2041.5Q71.5%2062%2065.5%2082.5M65.0%2041.5Q75.5%2062%2069.5%2082.5%22%20stroke%3D%22%23c1121f%22%20stroke-width%3D%221.35%22/%3E%3C/g%3E%3Ccircle%20cx%3D%2266%22%20cy%3D%2262%22%20r%3D%2220.5%22%20fill%3D%22none%22%20stroke%3D%22%237a0a12%22%20stroke-opacity%3D%22.35%22%20stroke-width%3D%22.8%22/%3E%3C/svg%3E">
+<meta name="description" content="Powerplay · Build your 2026 IPL franchise, dominate the live mega auction with real-time bidding, and lead your squad to the championship. An unofficial fan game.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Powerplay">
+<meta property="og:title" content="Powerplay · IPL Mega Auction & Franchise Cricket">
+<meta property="og:description" content="Build your 2026 IPL franchise, dominate the live mega auction with real-time bidding, and lead your squad to the championship. An unofficial fan game.">
+<meta property="og:url" content="/app/">
+<meta property="og:image" itemprop="image" content="/app/og.jpg">
+<meta property="og:image:secure_url" content="/app/og.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:alt" content="Powerplay: IPL Mega Auction & Franchise Cricket">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Powerplay · IPL Mega Auction & Franchise Cricket">
+<meta name="twitter:description" content="Build your 2026 IPL franchise, dominate the live mega auction with real-time bidding, and lead your squad to the championship.">
+<meta name="twitter:image" content="/app/og.jpg">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="icons/logo-180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<link rel="stylesheet" href="vendor/fonts.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="auction.css">
+<link rel="stylesheet" href="vendor/ph-bold.css">
+<link rel="stylesheet" href="vendor/ph-fill.css">
+</head>
+<body>
+<header class="top">
+  <button class="brand" data-action="home" aria-label="Powerplay, home">
+    <!-- the mark: a white cricket ball coming in on fire -->
+    <svg class="mark" viewBox="0 2 98 94" aria-hidden="true"><defs><linearGradient id="fo" x1="1" y1="1" x2="0" y2="0"><stop stop-color="#c1121f"/><stop offset="1" stop-color="#6d0810"/></linearGradient><linearGradient id="fm" x1="1" y1="1" x2="0" y2="0"><stop stop-color="#ff3b30"/><stop offset="1" stop-color="#c1121f"/></linearGradient><radialGradient id="wb" cx=".36" cy=".3" r=".8"><stop stop-color="#ffffff"/><stop offset=".6" stop-color="#eef0f6"/><stop offset="1" stop-color="#c3c8d8"/></radialGradient><linearGradient id="lg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#d1121f"/><stop offset="1" stop-color="#ff5147"/></linearGradient><clipPath id="wbc"><circle cx="66" cy="62" r="20.5"/></clipPath></defs><path transform="translate(66 62) rotate(0) scale(1) translate(-66 -62)" fill="url(#fo)" d="M88 73C94 55 85 38 66 35C50 33 36 24 30 6C30 18 33 26 41 31C28 30 16 24 9 12C12 26 20 37 33 43C20 44 9 40 2 32C8 46 20 56 35 58C25 61 16 60 9 56C17 68 28 74 42 74C36 78 30 80 25 80C44 92 76 92 88 73Z"/><path transform="translate(66 62) rotate(2) scale(0.85) translate(-66 -62)" fill="url(#fm)" d="M88 73C94 55 85 38 66 35C50 33 36 24 30 6C30 18 33 26 41 31C28 30 16 24 9 12C12 26 20 37 33 43C20 44 9 40 2 32C8 46 20 56 35 58C25 61 16 60 9 56C17 68 28 74 42 74C36 78 30 80 25 80C44 92 76 92 88 73Z"/><path transform="translate(66 62) rotate(4) scale(0.7) translate(-66 -62)" fill="#ff5a4a" d="M88 73C94 55 85 38 66 35C50 33 36 24 30 6C30 18 33 26 41 31C28 30 16 24 9 12C12 26 20 37 33 43C20 44 9 40 2 32C8 46 20 56 35 58C25 61 16 60 9 56C17 68 28 74 42 74C36 78 30 80 25 80C44 92 76 92 88 73Z"/><path transform="translate(66 62) rotate(6) scale(0.55) translate(-66 -62)" fill="#ffb9ad" d="M88 73C94 55 85 38 66 35C50 33 36 24 30 6C30 18 33 26 41 31C28 30 16 24 9 12C12 26 20 37 33 43C20 44 9 40 2 32C8 46 20 56 35 58C25 61 16 60 9 56C17 68 28 74 42 74C36 78 30 80 25 80C44 92 76 92 88 73Z"/><circle cx="66" cy="62" r="20.5" fill="url(#wb)"/><g fill="none" clip-path="url(#wbc)"><path d="M61.0 41.5Q71.5 62 65.5 82.5" stroke="#c1121f" stroke-width="11" stroke-dasharray="1 2.4" opacity=".55"/><path d="M57.0 41.5Q67.5 62 61.5 82.5M61.0 41.5Q71.5 62 65.5 82.5M65.0 41.5Q75.5 62 69.5 82.5" stroke="#c1121f" stroke-width="1.35"/></g><circle cx="66" cy="62" r="20.5" fill="none" stroke="#7a0a12" stroke-opacity=".35" stroke-width=".8"/></svg>
+    <span class="wordmark">Powerplay</span>
+  </button>
+  <span class="row" style="gap:10px;flex-wrap:nowrap"><span id="where" class="where"></span>
+    <button class="btn acct" data-action="account" aria-label="Account"><i class="ph-bold ph-user-circle" aria-hidden="true"></i><span>Account</span></button>
+    <button class="btn icon ghost" data-action="menu" aria-label="Menu"><i class="ph-bold ph-list" aria-hidden="true"></i></button></span>
+</header>
+<main id="app">
+  <!-- launch: a Powerplay is bowled, then the name arrives -->
+  <div class="splash" role="status" aria-label="Loading Powerplay">
+    <div class="splash-over" aria-hidden="true"><i class="four">4</i><i>1</i><i class="six">6</i><i class="wkt">W</i><i class="six">6</i><i class="six">6</i></div>
+    <div class="splash-word" aria-hidden="true">Power<em>play</em></div>
+    <p aria-hidden="true">IPL Mega Auction & Franchise Cricket</p>
+  </div>
+</main>
+<div id="sheet" class="sheet" hidden></div>
+<footer class="foot">
+  <p>An unofficial fan game, not affiliated with or endorsed by the IPL, the BCCI or any team. Match data from Cricsheet. <a href='/app/privacy'>Privacy</a></p>
+</footer>
+<!-- the bar along the bottom: the five places people go most; the menu button in the header has the rest -->
+<nav class="dock" aria-label="Main">
+  <button data-action="home" data-on="home"><i class="ph-bold ph-house" aria-hidden="true"></i><span>Home</span></button>
+  <button data-action="to-draft"><i class="ph-bold ph-user" aria-hidden="true"></i><span>Single player</span></button>
+  <button data-action="auction" data-on="auction"><i class="ph-bold ph-gavel" aria-hidden="true"></i><span>IPL Auction</span></button>
+  <button data-action="o-open" data-on="online"><i class="ph-bold ph-users-three" aria-hidden="true"></i><span>Multiplayer</span></button>
+  <button data-action="records" data-on="records"><i class="ph-bold ph-trophy" aria-hidden="true"></i><span>Records</span></button>
+  <button data-action="go" data-s="players" data-on="players"><i class="ph-bold ph-cards" aria-hidden="true"></i><span>Players</span></button>
+</nav>
+<script type="module" src="app.js"></script>
+</body>
+</html>

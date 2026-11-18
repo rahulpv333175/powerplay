@@ -1,0 +1,14 @@
+{
+  "name": "Powerplay",
+  "short_name": "Powerplay",
+  "description": "Powerplay · Build your 2026 IPL franchise, dominate the live mega auction with real-time bidding, and lead your squad to the championship.",
+  "start_url": "/app/",
+  "scope": "/app/",
+  "display": "standalone",
+  "background_color": "#070b1f",
+  "theme_color": "#070b1f",
+  "icons": [
+    { "src": "icons/logo-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/logo-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

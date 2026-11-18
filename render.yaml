@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: powerplay-ipl-auction
+    env: python
+    plan: free
+    buildCommand: "echo 'No build steps required'"
+    startCommand: "python server.py"
+    envVars:
+      - key: PORT
+        value: 10000
